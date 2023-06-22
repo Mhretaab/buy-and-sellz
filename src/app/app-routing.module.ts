@@ -5,7 +5,7 @@ import { ListingDetailPageComponent } from './listing-detail-page/listing-detail
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { EditListingPageComponent } from './edit-listing-page/edit-listing-page.component';
 import { MyListingsPageComponent } from './my-listings-page/my-listings-page.component';
-import { NewListingsPageComponent } from './new-listings-page/new-listings-page.component';
+import { NewListingPageComponent } from './new-listing-page/new-listing-page.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/listings', pathMatch: 'full'},
@@ -14,7 +14,7 @@ const routes: Routes = [
   {path:'contact/:id', component: ContactPageComponent},
   {path: 'edit-listing/:id', component: EditListingPageComponent},
   {path: 'my-listings', component: MyListingsPageComponent},
-  {path: 'new-listing', component: NewListingsPageComponent}
+  {path: 'new-listing', component: NewListingPageComponent}
 
 ];
 
